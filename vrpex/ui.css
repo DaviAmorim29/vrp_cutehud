@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	overflow: hidden;
+}
+
+.container {
+	position: absolute;
+	top: 82%;
+	left: 17%;
+	width: 200px;
+	height: 210px;
+}
+
+section{
+	width: 180px;
+	height: 70px;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+
+.bar {
+	width: 110px;
+	height: 17px;
+	margin: 5px auto;
+	margin-bottom: 12px;
+	border: 1px solid black;
+	background-color: rgba(50,50,50,.6);
+}
+
+#bar-heart {
+	border: 1px solid red;
+}
+
+#bar-armor {
+	border: 1px solid green;
+}
+
+#bar-hunger {
+	border: 1px solid #f39c12;
+}
+
+#bar-thirst {
+	border: 1px solid #0984e3;
+}
+
+#hearth-logo {
+	position: relative;
+	top: -26px;
+	right: 37px;
+}
+
+#armor-logo {
+	position: relative;
+	top: -26px;
+	right: 37px;
+}
+
+#hunger-logo {
+	position: relative;
+	top: -26px;
+	right: 37px;
+}
+
+#thirst-logo {
+	position: relative;
+	top: -26px;
+	right: 37px;
+}
+
+#hunger {
+	background-color: #f39c12;
+	height: 100%;
+}
+
+#thirst {
+	background-color: #0984e3;
+	height: 100%;
+}
+
+#armor {
+	background-color: green;
+	height: 100%;
+}
+
+#health {
+	background-color: red;
+	height: 100%;
+}
